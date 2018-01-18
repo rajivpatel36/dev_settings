@@ -1,0 +1,12 @@
+let mapleader = ","
+
+nnoremap <C-p> :action SearchEverywhere<CR>
+nnoremap <C-o> :action Back<CR>
+nnoremap <C-i> :action Forward<CR>
+nnoremap <C-r> :action RenameElement<CR>
+nnoremap <C-CR> :action CodeCompletion<CR>
+nnoremap <C-t> :action ActivateTerminalToolWindow<CR>
+nnoremap <leader>d :action VimGotoDeclaration<CR>
+
+nnoremap <Space> zo
+nnoremap <C-Space> zc
